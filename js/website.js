@@ -17,9 +17,9 @@ angular.module('website', ['ngRoute']).
         $scope.toggleModalConfirm = function () { 
             $scope.modalShown = !$scope.modalShown;
             $scope.modalShownConfirm = !$scope.modalShownConfirm;
-            setTimeout(function () {
-              document.querySelector('#desc').classList.toggle('show')
-            }, 500)
+            // setTimeout(function () {
+            //   document.querySelector('#desc').classList.toggle('show')
+            // }, 500)
          }
         $scope.likelihoodFunc = function () {
           $scope.likelihoodChange = true
